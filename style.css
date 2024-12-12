@@ -1,0 +1,356 @@
+:root {
+    --color-de-fondo: #000000;
+    --color-de-fondo-menu: #000000;
+    --color-de-link: #7973d3;
+    
+}
+
+body {
+    background-color: var(--color-de-fondo);
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 1.6;
+}
+
+ol, ul, li {
+    color:#7973d3;
+    list-style: none;
+
+}
+a
+{
+    text-decoration: underline;
+    color: var(--color-de-link);
+}
+
+/* ------------------------------ Sección Menú -------------------------------*/
+.cabecera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--color-de-fondo-menu);
+}
+
+.cabecera__logo {
+    max-width: 80px; 
+}
+
+.cabecera__titulo {
+    color: rgb(96, 96, 251);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.navegacion__lista {
+    display: none;
+}
+
+.navegacion__elemento a {
+    font-size: 0.9rem;
+}
+
+
+/* ------------------------------ Sección Presentación ------------------------------*/
+
+.presentacion__contenedor{
+    color: white;
+    text-align: center;
+}
+
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: medium;
+    font-style: oblique;
+    padding: 1rem;
+    background-color: var(--color-de-fondo-menu);
+}
+
+.presentacion__foto{
+    min-width: 80px;
+    max-width: 150px; 
+    border-radius: 50%;
+  
+} 
+
+
+/* ------------------------------ Sección sobre mí ----------------------------------*/
+
+.sobre_mi{
+    background-color: rgb(10, 10, 73);
+    color: white;
+    text-align: center;
+    font-size: medium;
+    font-style:oblique;
+}
+
+.sobre_mi_titulo{
+    text-align: center;
+}
+
+/*------------------------------ Sección de Habilidades ------------------------------*/
+
+.habilidades{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidades__titulo{
+    color:  rgb(96, 96, 251);
+    text-align: center;
+}
+
+.habilidades__elemento{
+    display: inline-block;
+    background-color: rgb(10, 10, 73);
+    border-style:inset;
+    border-color: #7973d3;
+
+}
+
+.habilidades__icono{
+    min-width: 80px;
+    max-width: 150px; 
+
+}
+
+.habilidades__nombre{
+    text-align: center;
+}
+
+.aficiones__nombre{
+    text-align: center;
+}
+    
+   
+/*------------------------------ Sección de Aficiones --------------------------------*/
+
+.aficiones{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem; 
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.aficiones__titulo{
+    color:  rgb(96, 96, 251);
+    text-align: center;
+}
+
+.aficiones__elemento{
+    display: inline-block;
+    background-color: rgb(10, 10, 73);
+    border-style:inset;
+    border-color: #7973d3;
+}
+
+.aficiones__icono{
+    min-width: 80px;
+    max-width: 150px; 
+}
+
+
+/*------------------------------ Sección de Formaciones --------------------------------*/
+
+.formacion{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.formacion__titulo{
+    color:  rgb(96, 96, 251);
+    text-align: center;
+}
+
+.formacion__elemento{
+    display: inline-block;
+    background-color: rgb(10, 10, 73);
+    vertical-align: top;
+    max-width: 150px;
+    border-style:inset;
+    border-color: #7973d3;
+
+}
+
+.formacion__icono{
+    min-width: 120px;
+    max-width: 150px; 
+}
+
+.formacion__titulo{
+    text-align: center;
+}
+
+.formacion__detalle{
+    text-align: center;
+}
+
+.formacion__escuela{
+    text-align: center;
+}
+
+
+/*------------------------------ Sección de Cursos--------------------------------*/
+.cursos{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.cursos__titulo{
+    color:  rgb(96, 96, 251);
+    text-align: center;
+    font-size:xx-large;
+}
+
+
+.cursos__lista{
+    display:inline-block;
+}
+
+.cursos__elemento{
+    display: inline-block;
+    background-color: rgb(10, 10, 73);
+    font-size: small;
+    border-style:inset;
+    border-color: #7973d3;
+    
+
+}
+
+.cursos__icono{
+    min-width: 5px;
+    max-width: 50px; 
+
+}
+
+.cursos__nombre{
+    text-align: center;
+}
+
+.cursos__detalles{
+    color: grey;
+    text-align: center;
+}
+    
+
+/*------------------- Sección de Proyectos ---------------------------------*/
+
+.proyecto__1{
+    color:  rgb(96, 96, 251);
+    text-align: center;
+    font-size: larger;
+}
+
+.proyecto__2{
+    color:  rgb(96, 96, 251);
+    text-align: center;
+    font-size: larger;
+}
+
+
+/*------------------- Sección de Contacto ---------------------------------*/
+
+
+.contacto{
+    background-color: none;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contacto__titulo {
+    text-align: center;
+    color:#7973d3;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .contacto__formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+  }
+  
+  .contacto__formulario {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+.contacto__campo{
+    background-color:#bebaee;
+    }
+  
+.contacto__boton{
+    background-color:#bebaee;
+}
+  
+/* ------------------------------ Rodapié ---------------------------------------*/
+
+.rodapie{
+   background-color: none;
+   color: rgb(131, 204, 253);
+   text-align: center;
+
+}
+
+/* ------------------------------ Responsividad ---------------------------------------*/
+
+/* Tablets y pantallas más grandes */
+@media (min-width: 768px) {
+    .cabecera {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cabecera__logo {
+        max-width: 100px;
+    }
+
+    .cabecera__titulo {
+        font-size: 1.5rem;
+    }
+
+    .navegacion__lista {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-top: 0;
+    }
+
+    .navegacion__elemento a {
+        font-size: 1rem;
+    }
+}
+
+/* Pantallas grandes */
+@media (min-width: 1024px) {
+    /* Aquí puedes ajustar aún más el diseño para pantallas grandes */
+    .cabecera__titulo {
+        font-size: 1.8rem;
+    }
+
+    .navegacion__elemento a {
+        font-size: 1.1rem;
+    }
+}
